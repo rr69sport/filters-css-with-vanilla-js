@@ -1,4 +1,4 @@
-# Docs
+# FilterssCSS
 
 ``` javascript
 class FiltersCSS {
