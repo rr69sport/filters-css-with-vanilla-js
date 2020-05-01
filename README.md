@@ -17,6 +17,15 @@ class FiltersCSS {
 }
 ```
 
+``` javascript
+
+```
+new FiltersCSS("myImg1", {
+    contrast: "150%",
+    brightness: '120%',
+    opacity: '75%'
+});
+
 ``` css
 /**
  *  filter: url("filters.svg#filter-id");
