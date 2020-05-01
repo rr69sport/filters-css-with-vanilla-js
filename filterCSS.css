@@ -1,0 +1,12 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+img{
+    margin-bottom: 8px;
+    max-width: 100%;
+}
