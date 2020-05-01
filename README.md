@@ -17,14 +17,17 @@ class FiltersCSS {
 }
 ```
 
-``` javascript
+## Instantiating object, one per image
 
-```
+``` javascript
 new FiltersCSS("myImg1", {
     contrast: "150%",
     brightness: '120%',
     opacity: '75%'
 });
+```
+
+## Valid CSS properties
 
 ``` css
 /**
