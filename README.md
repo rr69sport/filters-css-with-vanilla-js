@@ -3,7 +3,7 @@
 ``` javascript
 class FiltersCSS {
     /**
-     * @author Ramsua
+     * @author rr69sport
      * @param {HTMLElement} id img
      * @param {Object} options filter CSS propertie
      */
