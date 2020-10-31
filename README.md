@@ -1,6 +1,6 @@
 # FilterssCSS
 
-``` javascript
+``` js
 class FiltersCSS {
     /**
      * @author rr69sport
@@ -19,7 +19,7 @@ class FiltersCSS {
 
 ## Instantiating object, one per image
 
-``` javascript
+``` js
 new FiltersCSS("myImg1", {
     contrast: "150%",
     brightness: '120%',
@@ -30,25 +30,27 @@ new FiltersCSS("myImg1", {
 ## Valid CSS properties
 
 ``` css
-/**
- *  filter: url("filters.svg#filter-id");
- *  filter: blur(5px);
- *  filter: brightness(0.4);
- *  filter: contrast(200%);
- *  filter: drop-shadow(16px 16px 20px blue);
- *  filter: grayscale(50%);
- *  filter: hue-rotate(90deg);
- *  filter: invert(75%);
- *  filter: opacity(25%);
- *  filter: saturate(30%);
- *  filter: sepia(60%);
-
-    // Apply multiple filters
- *  filter: contrast(175%) brightness(3%);
+properties {
 
     // Global values
- *  filter: inherit;
- *  filter: initial;
- *  filter: unset;
- */
+    filter: inherit;
+    filter: initial;
+    filter: unset;
+    
+    // Specific values
+    filter: url("filters.svg#filter-id");
+    filter: blur(5px);
+    filter: brightness(0.4);
+    filter: contrast(200%);
+    filter: drop-shadow(16px 16px 20px blue);
+    filter: grayscale(50%);
+    filter: hue-rotate(90deg);
+    filter: invert(75%);
+    filter: opacity(25%);
+    filter: saturate(30%);
+    filter: sepia(60%);
+
+    // Apply multiple filters
+    filter: contrast(175%) brightness(3%);
+}
 ```
