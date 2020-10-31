@@ -31,13 +31,12 @@ new FiltersCSS("myImg1", {
 
 ``` css
 properties {
-
-    // Global values
+    /* Global values */
     filter: inherit;
     filter: initial;
     filter: unset;
     
-    // Specific values
+    /* Specific values */
     filter: url("filters.svg#filter-id");
     filter: blur(5px);
     filter: brightness(0.4);
@@ -50,7 +49,7 @@ properties {
     filter: saturate(30%);
     filter: sepia(60%);
 
-    // Apply multiple filters
+    /* Apply multiple filters */
     filter: contrast(175%) brightness(3%);
 }
 ```
